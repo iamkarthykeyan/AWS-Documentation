@@ -9,7 +9,8 @@ This documentation outlines the steps to:
 4.Configure SNS to send email notifications when the CPU utilization exceeds a threshold.
 5.Clean up resources after testing.
 
-Here is my Architecture : ![Architecture Image](./Architecture%20Model/architectureimage.png)
+Here is my Architecture :
+ ![Architecture Image](./Architecture%20Model/architectureimage.png)
 
 You can view the project documentation by clicking the link below:
 
