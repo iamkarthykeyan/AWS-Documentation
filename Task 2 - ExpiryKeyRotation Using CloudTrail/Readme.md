@@ -6,12 +6,16 @@
 ### This documentation outlines the steps to:  
 
 1.	AWS CloudTrail: Monitors API calls for creating new access keys and  triggers the workflow.  
-2.	Amazon EventBridge: Filters the CreateKey event from CloudTrail and  forwards it to a Lambda function.  
+
+2.	Amazon EventBridge: Filters the CreateKey event from CloudTrail and  forwards it to a Lambda function. 
+
 3.	Lambda Functions:  
 •	Creation Lambda: Stores details about the created keys (source IP address, creation time, CloudTrail event, and access  key) in DynamoDB.  
 •	Notification Lambda: Handles email notifications through Amazon 
 SES when keys expire.  
-4.	Amazon DynamoDB: Stores the access key details along with Time- to-Live (TTL) for automated expiration.  
+
+4.	Amazon DynamoDB: Stores the access key details along with Time- to-Live (TTL) for automated expiration. 
+ 
 5.	Amazon Simple Email Service (SES): Sends email notifications to the user when key expiration is near or triggered.  
 
 
