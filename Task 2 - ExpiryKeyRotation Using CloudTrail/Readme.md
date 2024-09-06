@@ -25,4 +25,4 @@ Here is my Architecture :
 
 You can view the project documentation by clicking the link below:
 
-[View the PDF Documentation](./docs/KARTHIKEYAN%20J%20-%20ExpiryKeyRotation%20using%20Cloudtrail%20with%20SES.pdf)
+[View the PDF Documentation](./docs/KARTHIKEYAN%20J%20-%20ExpiryKeyRotation%20by%20CloudTrail%20and%20SES.pdf)
