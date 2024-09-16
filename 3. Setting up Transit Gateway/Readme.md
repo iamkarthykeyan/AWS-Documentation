@@ -1,5 +1,7 @@
 # AWS Transit Gateway Setup with Inter-VPC Communication
 
+![Transit Gateway Architecture](./Architecture%20Model/Architectureimage.jpeg).
+
 ## Overview
 This document explains how to establish inter-VPC communication using AWS Transit Gateway. The architecture includes three VPCs—Dev, Prod, and Test—connected via Transit Gateway attachments. 
 
@@ -65,3 +67,8 @@ This document explains how to establish inter-VPC communication using AWS Transi
    Example:
    curl http://<Private_IP_of_EC2_in_Other_VPC>
    ping <Private_IP_of_EC2_in_Other_VPC>
+
+## Final Output:
+![Inter-Communication Done!](./Screenshot/Output.png)
+
+# Thankyou!
